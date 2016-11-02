@@ -1,5 +1,7 @@
 $ = jQuery = require('jQuery');
 var React = require('react');
+var Header = require('./common/header');
+
 
 
 
@@ -8,8 +10,9 @@ var App = React.createClass({
 
         return (
             <div>
-                <div className="container-fluid">
-                   <p>test 123445</p>
+                <Header />
+                <div className="container container-fluid">
+                    {this.props.children}
                 </div>
             </div>
         );
