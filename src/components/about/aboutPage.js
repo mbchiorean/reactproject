@@ -10,7 +10,7 @@ var About = React.createClass({
                 <p>
                     This app uses the followings:
                     <ul>
-                        <li>React</li>
+                        <li>React salut1</li>
                         <li>The new React DOM</li>
                         <li>Flux</li>
                     </ul>

@@ -82,6 +82,7 @@ gulp.task('css', function(){
     gulp.src(config.paths.css)
         .pipe(concat('bundle.css'))
         .pipe(gulp.dest(config.paths.dist + '/css'))
+        .pipe(connect.reload());
 });
 
 gulp.task('fonts', function(){
